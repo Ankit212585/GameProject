@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: purple;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.result {
+    width: 800px;
+    height: 400px;
+
+    position: relative;
+    background-color: white;
+    text-align: center;
+    display: none;
+}
+
+.resultHeading {
+    margin-top: 50px;
+}
+
+.correct {
+    margin: 40px;
+}
+
+.wrong {
+    margin: 40px;
+}
+
+.scores {
+    margin: 40px;
+}
+
+.play {
+    background-color: rebeccapurple;
+    position: absolute;
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 16px;
+    color: white;
+    left: 0;
+    bottom: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: crimson;
+}
+
+.container-1 {
+    width: 800px;
+    height: 400px;
+    margin-top: 10%;
+    position: relative;
+    background-color: white;
+}
+
+.content {
+    padding: 24px 107px;
+}
+
+.question {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.game {
+    /* display: none; */
+}
+
+.Next {
+    background-color: rebeccapurple;
+    position: absolute;
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 16px;
+    color: white;
+    bottom: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+    .container-1 {
+        margin: 40% 10px 10% 10px;
+        width: 400px;
+        height: 350px;
+    }
+
+    .question {
+        font-size: 20px !important;
+    }
+
+    .answers {
+        font-size: 12px !important;
+    }
+
+    .content {
+        padding: 10px 20px !important;
+    }
+
+    .result {
+
+        overflow: hidden;
+        width: 400px;
+        height: 350px;
+    }
+
+    .resultHeading {
+
+        font-size: 20px !important;
+    }
+}
