@@ -80,6 +80,11 @@ body {
     font-weight: 600;
     margin-bottom: 20px;
 }
+.answer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 .answers {
     display: flex;
