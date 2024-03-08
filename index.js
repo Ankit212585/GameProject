@@ -146,7 +146,7 @@ const showResult = () => {
     ".wrong"
   ).textContent = `wrong Answer: ${wrongCount}`;
 
-  resultScreen.querySelector(".scores").textContent = `wrong Answer: ${
+  resultScreen.querySelector(".scores").textContent = `Total Score: ${
     (correctCount - wrongCount) * 10
   }`;
 };
